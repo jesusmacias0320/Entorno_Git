@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Prueba de Velocidad</title>
+</head>
+<body>
+    <h1>Análisis de Escritura Rápida</h1>
+
+    <label for="inputText">Escribe el siguiente texto:</label><br>
+    <textarea id="inputText" cols="50" rows="5" readoly placeholder>Preparate para escribir... </textarea><br>
+
+    <label for="userInput">Escribe el siguiente texto:</label><br>
+    <textarea id="userInput" cols="50" rows="5" readoly placeholder>Comienza a escribir cuando estes listo </textarea><br>
+
+
+    <button onclick = "startTest()">Iniciar Prueba</button>
+    <button onclick = "endTest()" id = "btn">Finalizar Prueba</button>
+
+    <div id = "output"></div>
+    
+    <script src="./speed_analysis.js"></script>
+
+</body>
+</html>
